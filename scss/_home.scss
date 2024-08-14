@@ -1,0 +1,26 @@
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  background:
+    linear-gradient(to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3),
+    ),
+    url('/img/1.jpg') center top;
+  background-size: cover;
+
+  &_name {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
+}
