@@ -57,7 +57,7 @@
  position: fixed;
  top: 0;
  left: 0;
- width: 100dvw;
+ width: 100vw;
  opacity: 0.98;
  visibility: hidden;
 
@@ -70,7 +70,7 @@
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  height: 100dvh;
+  height: 100vh;
   overflow: hidden;
   background: $primary-color;
   list-style-type: none;
@@ -83,7 +83,7 @@
   }
 
   &_item {
-   transform: translateX(100dvw);
+   transform: translateX(100vw);
    @include transition-ease;
 
    &.open {
