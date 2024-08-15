@@ -193,6 +193,7 @@
 
 .projects {
   padding-bottom: 2rem;
+  overflow-x: hidden;
 }
 .projects_bio-image {
   height: 40dvh;
@@ -367,7 +368,7 @@
     font-size: 5.5rem;
   }
   .projects_bio-image {
-    height: 50dvh;
+    height: 55dvh;
   }
   .projects_items {
     grid-template-columns: repeat(4, 1fr);
@@ -379,6 +380,7 @@ body {
   height: 100dvh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
+  overflow-x: hidden;
 }
 
 h1,
