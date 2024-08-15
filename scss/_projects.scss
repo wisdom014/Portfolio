@@ -2,7 +2,7 @@
   padding-bottom: 2rem;
 
   &_bio-image {
-    height: 40vh;
+    height: 40dvh;
     width: 100%;
     background:
       linear-gradient(to right,
@@ -24,7 +24,7 @@
   }
 
   &_items {
-    width: 60vw;
+    width: 60dvw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;

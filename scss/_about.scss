@@ -3,7 +3,7 @@
   font-family: "Inter", sans-serif;
 
   &_bio-image {
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     background:
       linear-gradient(to right,
@@ -33,7 +33,7 @@
   }
 
   .jobs {
-    width: 60vw;
+    width: 60dvw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
