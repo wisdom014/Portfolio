@@ -57,7 +57,7 @@
  position: fixed;
  top: 0;
  left: 0;
- width: 100vw;
+ width: 100dvw;
  opacity: 0.98;
  visibility: hidden;
 
@@ -70,7 +70,7 @@
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   background: $primary-color;
   list-style-type: none;
