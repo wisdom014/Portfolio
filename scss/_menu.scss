@@ -83,7 +83,7 @@
   }
 
   &_item {
-   transform: translateX(100vw);
+   transform: translateX(100dvw);
    @include transition-ease;
 
    &.open {
