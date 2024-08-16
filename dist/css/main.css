@@ -154,7 +154,7 @@
   justify-content: center;
 }
 .about_bio-image p {
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
 }
 .about_bio {
   width: 80dvw;
@@ -181,6 +181,14 @@
 }
 .about .jobs_job h6 {
   margin: 0.3rem 0;
+}
+.about .pdf {
+  text-align: center;
+  padding: 10px;
+  background-color: #ff652f;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
 }
 .about .social-icons {
   display: flex;
