@@ -276,9 +276,12 @@
   bottom: 0;
   left: 0;
   margin-left: 50%;
+  text-align: center;
+  align-items: center;
   transform: translateX(-50%);
   font-size: 13px;
   z-index: 1;
+  width: 100%;
   font-weight: bold;
   cursor: default;
 }
