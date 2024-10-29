@@ -163,6 +163,9 @@
 .about_bio .text-secondary {
   padding-bottom: 1rem;
 }
+.about_bio .text-primary {
+  line-height: 25px;
+}
 .about .jobs {
   width: 60dvw;
   margin: 2rem auto 0 auto;
